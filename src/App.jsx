@@ -1,8 +1,9 @@
-import PlayersList from './Components/PlayersList';
-import MatchesList from './Components/MatchesList';
-import Footer from './Components/Footer';
-import AppNavbar from './Components/AppNavbar';
-import TeamsList from './Components/TeamsList';
+import PlayersList from './components/PlayersList';
+import MatchesList from './components/MatchesList';
+import Footer from './components/Footer';
+import AppNavbar from './components/AppNavbar';
+import TeamsList from './components/TeamsList';
+import MatchesCarousel from './components/MatchesCarousel';
 import haland from './assets/haland.jpg';
 import herry from './assets/herry.jpg';
 import lamine from './assets/lamine.jpg';
@@ -17,7 +18,6 @@ import psg from './assets/ps.png';
 import juven from './assets/juven.jpg';
 import mila from './assets/mila.png';
 import '../src/App.css';
-import MatchesCarousel from './Components/MatchesCarousel';
 const players = [
 
   { id: 1, name: "Lamine Yamal", team: "FC Barcelona", nationality: "Espagne", jerseyNumber: 10, age: 19, image: lamine },
